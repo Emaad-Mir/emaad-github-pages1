@@ -11,7 +11,6 @@ categories: [warm-ups]
 
 # The Picture Itself
 
-
 Below is the picture I drew using Microsoft Paint:
 
 <img src="{{site.baseurl}}/images/freeformpic.png"  width="800" height="400" />
