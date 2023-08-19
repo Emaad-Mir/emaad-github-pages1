@@ -3,12 +3,39 @@ description: "August 2023 to June 2024"
 owner_name: Nighthawk Coders
 github_username: Emaad-Mir
 baseurl: "/emaad-github-pages1"
-remote_theme: pages-themes/midnight@v0.2.0
+# remote_theme: pages-themes/midnight@v0.2.0
 # remote_theme: pages-themes/dinky@v0.2.0
 # remote_theme: pages-themes/minimal@v0.2.0
 # remote_theme: pages-themes/hacker@v0.2.0
 # remote_theme: pages-themes/cayman@v0.2.0
 # remote_theme: pages-themes/time-machine@v0.2.0
+# remote_theme: pages-themes/architect@v0.2.0
+# remote_theme: pages-themes/slate@v0.2.0
+remote_theme: pages-themes/modernist@v0.2.0
+
+
+weekly_sprints: [Tool and GitHub Pages Setup]
+review_ticket_links: [
+https://github.com/Emaad-Mir/emaad-github-pages1/issues/1#issue-1857822963
+]
+weekly_summaries: [
+  This week (the very first week) our main tasks were to get our tools installed and set up as well as our GitHub
+  pages website. In addition to setting up our website we also had to customize our website to make it unique to our 
+  own using some of the themes provided in the config.yml file. For my website I chose the modernist theme that I found.
+  We were also asked to create a FreeForm drawing that captured who we are as people and what we want to do with our lives
+  (which can be found on the blogs page or the home page of my website!),
+ 
+]
+
+weekly_sprints2: []
+review_ticket_links2: [
+ 
+]
+weekly_summaries2: [
+
+]
+
+
 plugins:
 - jekyll-remote-theme
 future: true

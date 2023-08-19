@@ -1,0 +1,263 @@
+<html>
+    <head>
+        <style>
+            .button {
+                background-color: #d1d3d1; /* Green */
+                border: black;
+                color: rgb(0, 0, 0);
+                padding: 20px 40px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 24px;
+                transition-duration: 0.4s;
+            }
+            .button:hover {
+                background-color: #00c0eb; /* Green */
+                color: white;
+            }
+
+            #guessButton {
+            background-color: #4CAF50;
+            border: none;
+            color: rgb(0, 0, 0);
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+
+            }
+
+            #guess {
+            background-color: #b4b4ea;
+            border: 2px solid #000000;
+            border-radius: 4px;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+}
+
+
+#guessButton:hover {
+  background-color: #3e8e41;
+}
+            h6 {
+                font-size: 200%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p><button class='button' onclick='initHangman()'>Play Now!</button></p>
+
+        <div id="game">
+            <p id="word"></p>
+            <p id="lives"></p>
+
+            <p id = "letters"></p>
+            <input style = "display: none" name="guess" id="guess">
+            <button id = "guessButton" style = "display: none" onclick = "guessLetter()">Guess a letter!</button>
+            <p id = "gameOver"></p>
+
+        </div>
+
+        <input id = "new_word">
+        <button id = "createButton" onclick = "postWord()">Create a new word!</button>
+
+        <input id = "removed_id">
+        <button onclick = "deleteWord()">Delete a word by id!</button>
+
+        <script>
+             const url = "https://cvcepgames.duckdns.org/api/words/";
+             const post_url = url+"create"
+             const delete_url = url+"delete/"
+                const get_options = {
+                method: 'GET', // *GET, POST, PUT, DELETE, etc.
+                mode: 'cors', // no-cors, *cors, same-origin
+                cache: 'default', // *default, no-cache, reload, force-cache, only-if-cached
+                credentials: 'omit', // include, *same-origin, omit
+                headers: { 
+                   'Content-Type': 'application/json'                
+             },
+           };
+
+           function postWord(){
+                const options = {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        word: document.getElementById("new_word").value
+                    })
+                }
+
+                fetch(post_url, options)
+                    .then(response => {
+                        if(response.status !== 200){
+                            return;
+                        }
+                        response.json().then(data=>{
+                            fetchWords()
+                        })
+                    })
+           }
+
+           function deleteWord(){
+                const options = {
+                    method: 'DELETE'
+                }
+                const full_url = delete_url+document.getElementById("removed_id").value
+
+                fetch(full_url, options)
+                    .then(response => {
+                        if(response.status !== 200){
+                            return;
+                        }
+                        response.json().then(data=>{
+                            fetchWords()
+                        })
+                    })
+           }
+          
+
+           function fetchWords(){
+                console.log("test")
+                fetch(url, get_options)
+                    .then(response => {
+                        if(response.status !== 200){
+                            return;
+                        }
+                        response.json().then(data=>{
+                            possibleWords = []
+                            for(const row of data){
+                                possibleWords.push(row.word)
+
+                            }
+                            console.log(possibleWords)
+                            possibleSolutions = possibleWords
+                        })
+                    })
+           }
+
+            let possibleSolutions = [];
+            fetchWords()
+            
+             function getSolution () {                
+             //   var possibleSolutions = ["coding", "programmer", "computer", "boolean", "string", "variable", "integer", "float", "virus", "errors"];
+                var randomIndex = Math.floor(Math.random() * possibleSolutions.length);
+                return possibleSolutions[randomIndex];
+            }
+
+            function gameOver (solution, won) {
+                message = "";
+                if (won) {
+                    message = "YOU WIN!"
+                } else {
+                    message = "GAME OVER";
+                }
+                message += "\n\nThe correct answer was " + solution + ".";
+                document.getElementById("gameOver").innerHTML = message;
+                finished = true;
+            }
+
+            let lives = 7;
+            let solution = ""
+            let solutionLetters = []
+            let progress = ""
+            let wrongLetters = []
+            let finished = true;
+
+
+            function initHangman () {
+              //  const possibleSolutions = data.map(word => word.toUpperCase());
+              //  const randomIndex = Math.floor(Math.random() * possibleSolutions.length);
+                solution = getSolution().toUpperCase();
+                solutionLetters = solution.split("");
+                wrongLetters = [];
+                lives = 7;
+                progress = "_".repeat(solution.length).split('');
+                finished = false;
+
+                updateDisplay()
+                document.getElementById("gameOver").innerHTML = "";
+                document.getElementById("guess").style.display = "block";
+                document.getElementById("guessButton").style.display = "block";
+        
+
+            }
+
+            function updateDisplay(){
+                document.getElementById("word").innerHTML = progress.join(" ");
+        
+                document.getElementById("lives").innerHTML = "Lives: "+ lives
+                document.getElementById("letters").innerHTML = "[" + wrongLetters.join(", ") + "]"
+
+
+            }
+            
+            function guessLetter(){
+                if(finished){
+                    return;
+                }
+                const guess = document.getElementById("guess").value.toUpperCase()
+                let goodGuess = false;
+
+                for(let i = 0; i < solutionLetters.length; i++){
+                    if(solutionLetters[i] == guess){
+                        goodGuess = true;
+                        progress[i] = guess;
+                    }
+                }
+                updateDisplay()
+
+                if(goodGuess){
+                    if(progress.join('') == solution){
+                        return gameOver(solution, true)
+                    }
+            
+
+                } else{
+                    wrongLetters.push(guess);
+                    lives--
+                    updateDisplay()
+                }
+                if(lives == 0){
+                    gameOver(solution,false)
+                }
+            }
+            
+
+    //             while (wrongLetters.length < lives) {
+    //                 var promptMessage = "Here is your progress on the word so far: \n" + progress.join(' ') + "\nWrong guesses: [" + wrongLetters.toString() + "]\n\nPick a letter:";
+    //                 var userInput = prompt(promptMessage);
+
+    //                 var guess = userInput.toUpperCase();
+    //                 var goodGuess = false;
+
+    //                 for(var i = 0; i < solutionLetters.length; i++) {
+    //                     if (solutionLetters[i] == guess) {
+    //     goodGuess = true;
+    //     progress[i] = guess;
+        
+    //   }
+    // }
+
+//     if (goodGuess) {
+//       if (progress.join('') == solution) {
+//         return gameOver(solution, true);
+//       }
+//     } else {
+//       wrongLetters.push(guess);
+//       alert("Sorry, " + guess + " is incorrect.\nYou have " + (lives - wrongLetters.length) + " strikes left.");
+//     }
+//   }
+//   return gameOver(solution, false);
+
+
+        </script>
+    </body>
+</html>
