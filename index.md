@@ -3,7 +3,10 @@ layout: default
 title: Student Blog
 ---
 
+
 ## Emaad's GitHub Pages
+
+{% include home.html %}
 
 Hey!
 
