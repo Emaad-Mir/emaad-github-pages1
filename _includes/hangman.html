@@ -63,15 +63,10 @@
             <p id = "gameOver"></p>
 
         </div>
-
-        <input id = "new_word">
-        <button id = "createButton" onclick = "postWord()">Create a new word!</button>
-
-        <input id = "removed_id">
-        <button onclick = "deleteWord()">Delete a word by id!</button>
+        
 
         <script>
-             const url = "https://cvcepgames.duckdns.org/api/words/";
+            /* const url = "https://cvcepgames.duckdns.org/api/words/";
              const post_url = url+"create"
              const delete_url = url+"delete/"
                 const get_options = {
@@ -84,7 +79,7 @@
              },
            };
 
-           function postWord(){
+        /*   function postWord(){
                 const options = {
                     method: 'POST',
                     headers: {
@@ -106,7 +101,7 @@
                     })
            }
 
-           function deleteWord(){
+         /*  function deleteWord(){
                 const options = {
                     method: 'DELETE'
                 }
@@ -124,7 +119,7 @@
            }
           
 
-           function fetchWords(){
+          /* function fetchWords(){
                 console.log("test")
                 fetch(url, get_options)
                     .then(response => {
@@ -142,12 +137,16 @@
                         })
                     })
            }
-
+           */
             let possibleSolutions = [];
-            fetchWords()
+      ///      fetchWords()
+
             
              function getSolution () {                
-             //   var possibleSolutions = ["coding", "programmer", "computer", "boolean", "string", "variable", "integer", "float", "virus", "errors"];
+                var possibleSolutions = ["coding", "programmer", "computer", "boolean", "string", "variable", "integer", "float", "virus", "errors","machine","weary",
+                "exact","adamant", "competitor", "physics", "chewing gum", "woozy", "scratch", "cautious", "greedy", "instinctive", "squeamish","real","spot",
+                "chivalrous", "recognize", "rush", "screw", "suffer", "inform", "friend", "shoe", "acoustic", "old-fashioned","grey","zephyr",
+                "north", "crack", "education", "sore", "vengeful", "lethal", "joyous", "analyze", "waiting", "thick","tap","sweet"];
                 var randomIndex = Math.floor(Math.random() * possibleSolutions.length);
                 return possibleSolutions[randomIndex];
             }
