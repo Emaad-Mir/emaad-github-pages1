@@ -10,8 +10,8 @@ baseurl: "/emaad-github-pages1"
 # remote_theme: pages-themes/cayman@v0.2.0
 # remote_theme: pages-themes/time-machine@v0.2.0
 # remote_theme: pages-themes/architect@v0.2.0
-# remote_theme: pages-themes/slate@v0.2.0
-remote_theme: pages-themes/modernist@v0.2.0
+remote_theme: pages-themes/slate@v0.2.0
+# remote_theme: pages-themes/modernist@v0.2.0
 
 
 weekly_sprints: [Tool and GitHub Pages Setup]
