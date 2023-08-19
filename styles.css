@@ -48,14 +48,8 @@ input:checked + label:after {
 label:active:after{
 	width: 260px;
 }
-.background {
-	width:0vw;
-	height: 0vh;
-	background: #6C7989;
-	z-index: -1;
-	position: absolute;
-	transition: 0.3s;
-}
+
+
 input:checked + label + .background {
 	background:#242424;
 }
