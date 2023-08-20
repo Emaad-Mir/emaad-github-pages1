@@ -1,5 +1,4 @@
 ---
-toc: true
 comments: true
 layout: post
 title: Freeform Picture (And What I Learned Through the Process)
