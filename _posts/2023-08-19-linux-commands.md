@@ -1,5 +1,4 @@
 ---
-toc: true
 comments: true
 layout: post
 title: Linux Commands Notes + Answers to Week 0 Questions
