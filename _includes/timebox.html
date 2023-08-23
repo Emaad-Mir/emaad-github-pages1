@@ -1,5 +1,5 @@
 <h1>Trimester 1</h1>
-<h2>Unit 1: Introduction to Tools and Resources</h2>
+<h2>Unit 1: Tools and Software Development Processes</h2>
 <table>
     <tr>
         <th>Week</th>
@@ -8,7 +8,7 @@
         <th>Summary</th>
     </tr>
 
-    {% assign week_number = 3 %}
+    {% assign week_number = 1 %}
 
     {% for i in (0..week_number) %}
     <tr>
@@ -20,23 +20,3 @@
     {% endfor %}
 </table>
 
-<h2>Unit 2: Introduction to Web Development</h2>
-<table>
-    <tr>
-        <th>Week</th>
-        <th>Sprint</th>
-        <th>Review Tickets</th>
-        <th>Summary</th>
-    </tr>
-
-    {% assign week_number = 7 %}
-
-    {% for i in (4..week_number) %}
-    <tr>
-        <td>{{ i }}</td>
-        <td>{{ site.weekly_sprints2[i] }}</td>
-        <td><a href="{{ site.review_ticket_links2[i] }}">Review Ticket Week {{ i }}</a></td>
-        <td>{{ site.weekly_summaries2[i] }}</td>
-    </tr>
-    {% endfor %}
-</table>
