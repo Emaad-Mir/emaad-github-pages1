@@ -43,7 +43,6 @@ Load all posts with site
   <tr>
     <th>Week</th>
     <th>Plans</th>
-    <th>Hacks(Todo)</th>
     <th>Tangibles</th>
   </tr>
 
@@ -89,9 +88,6 @@ Load all posts with site
           {% if post.type == "plans" %} 
               {% assign plans = plans | unshift: title %}
               {% assign plans = plans | unshift: url %}
-          {% elsif post.type == "hacks" %}
-              {% assign hacks = hacks | unshift: title %}
-              {% assign hacks = hacks | unshift: url %} 
           {% elsif post.type == "tangibles" %}
               {% assign tangibles = tangibles | unshift: title %}
               {% assign tangibles = tangibles | unshift: url %} 
@@ -107,7 +103,7 @@ Load all posts with site
   {%comment%} 
   <!-- ordering units and inserting column delimiters -->
   {%endcomment%}
-  {% assign units = units | concat:plans | concat:deli | concat:hacks | concat:deli | concat:tangibles  %}
+  {% assign units = units | concat:plans | concat:deli  | concat:tangibles  %}
 
   {%comment%} 
   <!-- This Loop is maximum iterationss, since elements are pairs it will decrement a extra times at the end -->

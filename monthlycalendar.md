@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Monthly Calendar
+type: tangibles
+courses: { csa: {week: 0} }
 ---
 
 
