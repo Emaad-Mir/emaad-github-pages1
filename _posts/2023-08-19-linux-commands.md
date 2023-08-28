@@ -3,7 +3,8 @@ comments: true
 layout: post
 title: Linux Commands Notes + Answers to Week 0 Questions
 description: This blog gives an overview of some of the most common Linux commands that we have used (and will continue to use). It also answers some of the main questions regarding this week's tasks (which were mainly to install tools and have our GitHub Pages all set up). 
-courses: { csa: {week: 0} }
+type: tangibles
+courses: { csa: {week: 1} }
 categories: [warm-ups]
 ---
 

@@ -3,6 +3,7 @@ comments: true
 layout: post
 title: Freeform Picture (And What I Learned Through the Process)
 description: Become one with your tools.  They could be more important than code, code, code.
+type: tangibles
 courses: { csa: {week: 0} }
 categories: [warm-ups]
 ---
