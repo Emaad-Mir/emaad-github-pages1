@@ -2,11 +2,11 @@
 title: JS Calculator
 comments: true
 hide: true
-layout: default
+layout: post
 description: A common way to become familiar with a language is to build a calculator.  This calculator shows off button with actions.
 permalink: /emaad-github-pages1/calc
 categories: [C7.0]
-courses: { csa: {week: 1} }
+courses: { csa: {week: 2} }
 type: hacks
 ---
 
