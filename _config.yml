@@ -35,7 +35,10 @@ weekly_summaries: [
   Music API and jquery. Our task could have been one of two things with the first one being us simply adding to each of the JS lessons and the other
   being combining all four of the lessons into one project. Varalu and I decided to go with the second option (sorta) and we did this with a dating site.
   While Varalu for the most part did all of the frontend for our dating site I was in charge of the backend portion and in using the API I made to connect
-  the two so that two users could be matched up with each other and interact based on their age interests and other attributes that were set up in the API. 
+  the two so that two users could be matched up with each other and interact based on their age interests and other attributes that were set up in the API. Currently,
+  we are running into a few issues with CORS not allowing us to post using the frontend portion of our project. However in Postman we are able to post a new
+  profile without any problems. Varalu and I are actively looking for ways to resolve the issues with CORS so that the frontend and backend will be connected
+  and so that we can finish up on the matching component of our dating site.  
 ]
 
 
