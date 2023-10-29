@@ -20,3 +20,45 @@
     {% endfor %}
 </table>
 
+
+<h2>Unit 2: Java Mini Labs</h2>
+<table>
+    <tr>
+        <th>Week</th>
+        <th>Sprint</th>
+        <th>Review Tickets</th>
+        <th>Summary</th>
+    </tr>
+
+    {% assign week_number = 7 %}
+
+    {% for i in (4..week_number) %}
+    <tr>
+        <td>{{ i }}</td>
+        <td>{{ site.weekly_sprints[i] }}</td>
+        <td><a href="{{ site.review_ticket_links[i] }}">Review Ticket Week {{ i }}</a></td>
+        <td>{{ site.weekly_summaries1[i] }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h2>Unit 3: Individual/Team Projects and N@TM</h2>
+<table>
+    <tr>
+        <th>Week</th>
+        <th>Sprint</th>
+        <th>Review Tickets</th>
+        <th>Summary</th>
+    </tr>
+
+    {% assign week_number = 12 %}
+
+    {% for i in (8..week_number) %}
+    <tr>
+        <td>{{ i }}</td>
+        <td>{{ site.weekly_sprints[i] }}</td>
+        <td><a href="{{ site.review_ticket_links[i] }}">Review Ticket Week {{ i }}</a></td>
+        <td>{{ site.weekly_summaries2[i] }}</td>
+    </tr>
+    {% endfor %}
+</table>
