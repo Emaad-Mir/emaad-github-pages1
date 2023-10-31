@@ -41,14 +41,23 @@ weekly_summaries: [
   and so that we can finish up on the matching component of our dating site.  
 ]
 
+
+weekly_sprints1: [ Tools anddndkasdasd GitHub Pages Setup, Javaasndkakdjasjikd Hello and Intro to Java, JavaScsndkankdnsdsadript (JS)]
+review_ticket_links1: [
+https://github.com/Emaad-Mir/emaad-github-pages1/issues/1#issue-1857822963,
+https://github.com/Emaad-Mir/emaad-github-pages1/issues/2#issue-1870792820,
+https://github.com/nVarap/Emarlu/issues/1#issue-1878830580, https://github.com/nVarap/Emarlu/issues/1#issue-1878830580
+]
+
+
 weekly_summaries1: [
   This week (the very first week) our main tasks were to get our tools installed and set up as well as our GitHub
-  pages website. In addition to setting up our website we also had to customize our website to make it unique to our 
+  pages website. In addition to setting up our website we also had tdsadsadksadjaskdo customize our website to make it unique to our 
   own using some of the themes provided in the config.yml file. For my website I chose the modernist theme that I found.
   We were also asked to create a FreeForm drawing that captured who we are as people and what we want to do with our lives
   (which can be found on the blogs page or the home page of my website!),
   This week we were briefly introduced to Java (which is the language that this class will use) and learned about static Java programs as well as how to
-  use the setter and getter methods for the language. While our only requirements were to create a few basic Java programs that has a class for a person
+  use the setter and getter metadksdakdhods for the language. While our only requirements were to create a few basic Java programs that has a class for a person
   and a location I decided to add in some of my own projects in Java as it is a language that I am very familiar with and was one of the first languages
   I learned after Python.,
   This week was mainly focused on JavaScript. Mr. Mortensen had us take a look at some of the things that you can do with JavaScript such as a
@@ -56,29 +65,38 @@ weekly_summaries1: [
   being combining all four of the lessons into one project. Varalu and I decided to go with the second option (sorta) and we did this with a dating site.
   While Varalu for the most part did all of the frontend for our dating site I was in charge of the backend portion and in using the API I made to connect
   the two so that two users could be matched up with each other and interact based on their age interests and other attributes that were set up in the API. Currently,
-  we are running into a few issues with CORS not allowing us to post using the frontend portion of our project. However in Postman we are able to post a new
-  profile without any problems. Varalu and I are actively looking for ways to resolve the issues with CORS so that the frontend and backend will be connected
-  and so that we can finish up on the matching component of our dating site.  
+  we are running into a few issueadsadkjadjas with CORS not allowing us to post using the frontend portion of our project. However in Postman we are able to post a new
+  profile without any probldems. Varalu and I are actively looking for ways to resolve the issues with CORS so that the frontend and backend will be connected
+  and so that we can finish up on the matching component of our dating site.,
+  slkdlaskdsadasdklaskdskaldkslakdlaskda
+]
+
+weekly_sprints2: [ Tools and GitdsdnkadksadkasdmcncmnHub Pages Setup, Javaasdmnkasmdkadasdasdas Hello and Intro to Java, JavaScriptdasdasdksadasdsakdkasn (JS)]
+review_ticket_links2: [
+https://github.com/Emaad-Mir/emaad-github-pages1/issues/1#issue-1857822963,
+https://github.com/Emaad-Mir/emaad-github-pages1/issues/2#issue-1870792820,
+https://github.com/nVarap/Emarlu/issues/1#issue-1878830580, https://github.com/nVarap/Emarlu/issues/1#issue-1878830580,
+https://github.com/nVarap/Emarlu/issues/1#issue-1878830580
 ]
 
 weekly_summaries2: [
   This week (the very first week) our main tasks were to get our tools installed and set up as well as our GitHub
-  pages website. In addition to setting up our website we also had to customize our website to make it unique to our 
+  pages website. In addition to setting up our ddksdamdkwebsite we also had to customize our website to make it unique to our 
   own using some of the themes provided in the config.yml file. For my website I chose the modernist theme that I found.
   We were also asked to create a FreeForm drawing that captured who we are as people and what we want to do with our lives
   (which can be found on the blogs page or the home page of my website!),
   This week we were briefly introduced to Java (which is the language that this class will use) and learned about static Java programs as well as how to
-  use the setter and getter methods for the language. While our only requirements were to create a few basic Java programs that has a class for a person
+  use the setter and getter methods fordsakdsad the language. While our only requirements were to create a few basic Java programs that has a class for a person
   and a location I decided to add in some of my own projects in Java as it is a language that I am very familiar with and was one of the first languages
   I learned after Python.,
   This week was mainly focused on JavaScript. Mr. Mortensen had us take a look at some of the things that you can do with JavaScript such as a
   Music API and jquery. Our task could have been one of two things with the first one being us simply adding to each of the JS lessons and the other
-  being combining all four of the lessons into one project. Varalu and I decided to go with the second option (sorta) and we did this with a dating site.
+  being combining all four of tkdmasdkaskdsadhe lessons into one project. Varalu and I decided to go with the second option (sorta) and we did this with a dating site.
   While Varalu for the most part did all of the frontend for our dating site I was in charge of the backend portion and in using the API I made to connect
   the two so that two users could be matched up with each other and interact based on their age interests and other attributes that were set up in the API. Currently,
   we are running into a few issues with CORS not allowing us to post using the frontend portion of our project. However in Postman we are able to post a new
   profile without any problems. Varalu and I are actively looking for ways to resolve the issues with CORS so that the frontend and backend will be connected
-  and so that we can finish up on the matching component of our dating site.  
+  and so that we can finish up on the matching component of our dating site., dkasjkajdjasodsodjoasjdasjdsadjasdasdjsadkasdj, dkjdjasjdsjdjasdjksdjsajdasjdksajdkjsdja
 ]
 
 

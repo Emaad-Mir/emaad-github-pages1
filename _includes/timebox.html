@@ -37,7 +37,7 @@
         <td>{{ i }}</td>
         <td>{{ site.weekly_sprints[i] }}</td>
         <td><a href="{{ site.review_ticket_links[i] }}">Review Ticket Week {{ i }}</a></td>
-        <td>{{ site.weekly_summaries1[i] }}</td>
+        <td>{{ site.weekly_summaries1[i-4] }}</td>
     </tr>
     {% endfor %}
 </table>
@@ -58,7 +58,7 @@
         <td>{{ i }}</td>
         <td>{{ site.weekly_sprints[i] }}</td>
         <td><a href="{{ site.review_ticket_links[i] }}">Review Ticket Week {{ i }}</a></td>
-        <td>{{ site.weekly_summaries2[i] }}</td>
+        <td>{{ site.weekly_summaries2[i-8] }}</td>
     </tr>
     {% endfor %}
 </table>
