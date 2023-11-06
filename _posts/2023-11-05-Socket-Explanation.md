@@ -2,8 +2,8 @@
 layout: post
 title: Robot Socket Explanation
 description: Script
-courses: {'csa': {'week': 4}}
-type: lessons
+courses: {'csa': {'week': 11}}
+type: tangibles
 ---
 
 

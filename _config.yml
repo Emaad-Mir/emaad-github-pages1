@@ -96,7 +96,8 @@ weekly_summaries2: [
   the two so that two users could be matched up with each other and interact based on their age interests and other attributes that were set up in the API. Currently,
   we are running into a few issues with CORS not allowing us to post using the frontend portion of our project. However in Postman we are able to post a new
   profile without any problems. Varalu and I are actively looking for ways to resolve the issues with CORS so that the frontend and backend will be connected
-  and so that we can finish up on the matching component of our dating site., dkasjkajdjasodsodjoasjdasjdsadjasdasdjsadkasdj, dkjdjasjdsjdjasdjksdjsajdasjdksajdkjsdja
+  and so that we can finish up on the matching component of our dating site.,
+  dkasjkajdjasodsodjoasjdasjdsadjasdasdjsadkasdj, dkjdjasjdsjdjasdjksdjsajdasjdksajdkjsdja
 ]
 
 
