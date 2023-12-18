@@ -93,7 +93,7 @@ The relationship between Person objects and PersonRole objects is a many-to-many
 
 I can see the tutorial_id in a column of the note table when I look inside the sqlite.db file. The leftmost "id" column in the note table is typically the primary key of the Note entity. Each note has its unique ID (id) and is associated with a Person (i.e. tutorial_id). The id column identifies each Note, while tutorial_id links it to its corresponding Person (hence why we only see numbers in the tutorial_id column).
 
-![]({{site.baseurl}}/images/Screenshot(117).png)
+![]({{site.baseurl}}/images/tutorial.png)
 
 
 # Homework Hacks Complete
@@ -106,7 +106,7 @@ For my hacks, I decided to create a data base that was all about TV shows. Speci
 
 The first screenshot is a many to many relationship between the TV show and the genre of the TV show, as shown below:
 
-![]({{site.baseurl}}/images/Screenshot(109).png)
+![]({{site.baseurl}}/images/manytomany.png)
 
 Here is the code segment that I used to create this relationship (mainly with the @ManyToMany):
 
@@ -121,7 +121,7 @@ Here is the code segment that I used to create this relationship (mainly with th
 
 The next screenshot below shows the use of a JSONB column for episodes of a show, which is the column that has the curly brackets and colons:
 
-![]({{site.baseurl}}/images/Screenshot(112).png)
+![]({{site.baseurl}}/images/json.png)
 
 Here is the code segment that I used to include the episodes JSONB column:
 
@@ -135,9 +135,9 @@ Here is the code segment that I used to include the episodes JSONB column:
 
 The rest of the screenshots below are of some of my other sqlite data tables that I made:
 
-![]({{site.baseurl}}/images/Screenshot(108).png)
+![]({{site.baseurl}}/images/dob.png)
 
-![]({{site.baseurl}}/images/Screenshot(111).png)
+![]({{site.baseurl}}/images/title.png)
 
 
 ## Extra Notes Beyond the Lesson
