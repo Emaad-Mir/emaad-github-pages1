@@ -1,5 +1,5 @@
 ---
-title: Week 19 Plans
+title: Individual Review
 comments: true
 layout: post
 description: This blog gives an overview of all my work from this year as well as plans for the future!
