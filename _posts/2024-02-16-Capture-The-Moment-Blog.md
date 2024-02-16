@@ -31,6 +31,8 @@ Overall, I had an amazing time at N@TM because it gave me the opportunity to not
 
 That being said, there were also a few areas of improvement in our demos. For example, the model that we used for the games and the frames definitely could have been much more accurate. One of the things that we noticed was the fact that most of the letters that the model predicted were either "Q", "M", or "J", and while those could have definitely been some of the letters that the user tried to show, they are most definitely not the only letters. Afterwards we as a group tried it out and saw that no matter what letter we showed to the screen, it would still display the same predictions for the letters. This explained why for the most part, the points did not update as much as we expected since according to the model, what the user showed to the camera was incorrect. In order to improve the model, we will need to make adjustments to the model (ex. learning rate) so that it is more accurate to what the user is showing and perhaps provide the model with more training examples. Both of these things will make sure that our model is truly accurate and can accurately decide if the user's gesture is correct or incorrect. 
 
+Another thing we could improve on is of course getting the backend deployed, as we weren't able to due to the servers breaking and due to some too many requests being created from the quiz we had earlier this week.
+
 Visuals or pics of team and people you talked
 
 ![]({{site.baseurl}}/images/anthony.png)
