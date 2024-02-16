@@ -71,6 +71,12 @@ something you saw in CompSci that impressed
 
 This was a project that I found pretty interesting from CSP. As shown in the image, the project is centered around the mobile game Clash Royale and its many decks of cards. Essentially how the project works is that you select 8 cards from many many different cards, and once you submit your choices and then go to your "Favorites" page, you will see those same 8 cards pop up on the page. It was interesting to me because of how it was not only built around Clash Royale but also because of the kinds of elements that they used to put this project together. 
 
+
+![]({{site.baseurl}}/images/csa.png)
+
+This happened to be a CSA project from third period, and the idea behind this game was that you could add your own assignments or homework and potentially get them graded. I really like the design of the page, as it was very aesthetically pleasing to me and the many others who tested the project out. I could tell a lot of hard work was put into it while also being able to tell that this group enjoyed creating this project. I saw a lot of people gather around for this project, so I am sure those people thought the same thing as me.
+
+
 something you saw outside of CompSci that you liked
 
 ![]({{site.baseurl}}/images/drawingpainting.png)
