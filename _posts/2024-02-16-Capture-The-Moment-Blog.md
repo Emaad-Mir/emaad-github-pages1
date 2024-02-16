@@ -36,12 +36,32 @@ Another thing we could improve on is of course getting the backend deployed, as 
 Visuals or pics of team and people you talked
 
 ![]({{site.baseurl}}/images/anthony.png)
+
+ Unfortunately, Anthony had to go to a Junior Olympics competition, so he was not able to make it to the event in person. However, he still was willing to come to the event through FaceTime and talk from there, as you can see in the above image!
+
 ![]({{site.baseurl}}/images/firstgroup.png)
+
+This was the first group of our many interested users that we showed our project to. We started by explaining to them what the game was and why we made it (which was of course to help raise awareness on people who are hard of hearing). We gave them the opportunity to play it themselves a few times, as shown in both this image and the image below. 
+
 ![]({{site.baseurl}}/images/firstgroupexplain.png)
+
+We took turns on who would explain the game, leaderboard, database, etc. and we all as a whole did an amazing job. The image below is of me specifically explaining the game to them as well as what is going on behind the scenes: 
+
 ![]({{site.baseurl}}/images/mexplaining.png)
 
 
-Here you can see some of our first test users of our project. They all had a really good time playing the game! Unfortunately, Anthony had to go to a Junior Olympics competition, so he was not able to make it. However, he still was willing to come to the event through facetime and talk there, as you can see in the very first image!
+
+Here you can see some of our first test users of our project. They all had a really good time playing the game!
+
+We of course had a few techy users who came with some techy questions (all of which we could answer). Most of the users were still there just to be able to play, and even if they had no idea what was going on with our backend data base, they all seemed to enjoy it very much.
+
+Also just for fun this is what our backend database looked like:
+
+![]({{site.baseurl}}/images/backendbase.png)
+
+Lots of Q's, am I right?
+
+
 
 # Blog on event
 
