@@ -33,7 +33,7 @@ I helped contribute to the timeline for our project and create issues for any ma
 
 
 
-# 2015 FRQs
+## 2015 FRQs
 
 | Key | Value |
 |-----|-------|
@@ -46,26 +46,34 @@ I helped contribute to the timeline for our project and create issues for any ma
 
 
 
-
-
-
-# Overall Commit History
+## Overall Commit History
 ![image](https://github.com/Emaad-Mir/emaad-github-pages1/assets/86995831/7c509a49-0511-4103-889f-37f9c7b4843a)
 
-# Commits to GitHub Pages Blog
+## Commits to GitHub Pages Blog
 ![image](https://github.com/Emaad-Mir/emaad-github-pages1/assets/86995831/3ae9f5f8-2d48-4c73-9b32-e9dd8a50ccb9)
 
-
-
-
-
-
-
-
-
-# Overall Commit History
+## Overall Commit History
 ![image](https://github.com/Emaad-Mir/emaad-github-pages1/assets/86995831/7c509a49-0511-4103-889f-37f9c7b4843a)
 
-# Commits to GitHub Pages Blog
+## Commits to GitHub Pages Blog
 ![image](https://github.com/Emaad-Mir/emaad-github-pages1/assets/86995831/3ae9f5f8-2d48-4c73-9b32-e9dd8a50ccb9)
+
+# Debugging Session
+
+## Data/Breakpoint After Stepping In (Frontend)
+
+![image](https://github.com/Emaad-Mir/emaad-github-pages1/assets/86995831/09470328-675b-4565-9853-1ad60afe4b33)
+
+## Data After Stepping In (Backend)
+
+![image](https://github.com/Emaad-Mir/emaad-github-pages1/assets/86995831/8a810447-ae13-490a-843a-1e23ed7f9e13)
+
+## Configuration for SecurityConfig and MvcConfig
+
+![image](https://github.com/Emaad-Mir/emaad-github-pages1/assets/86995831/2910317d-12ef-4add-aa39-74f3b50ec4c5)
+![image](https://github.com/Emaad-Mir/emaad-github-pages1/assets/86995831/f7d78ac9-ebe0-4230-a0ed-78402e73607f)
+
+
+
+
 
